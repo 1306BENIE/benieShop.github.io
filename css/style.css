@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 45px;
+    border: 1px solid red;
+}
+#benie_shop{
+      
+}
+
+#entete{
+    list-style-type: none;
+    float: right;
+    margin-top: -50px;
+    margin-right: 85px;
+}
+.le_bloc{
+    display: inline-block;
+    
+}
+
+.le_bloc > a{
+    text-decoration: none;
+    margin-right: 65px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.img_nav{
+    height: 25px;
+    
+}
+
+.bloc_entete{
+    border: 1px solid black;
+    height: 435px;
+}
