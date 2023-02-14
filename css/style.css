@@ -86,27 +86,45 @@ body{
 .sous_bloc_un{
     height: 330px;
     width: 18%;
-    border: 1px solid red;
     display: inline-block;
     transform: translate(2em, 6px);
     margin-left: 12em;
     border-bottom: 12px solid orange;
+    box-shadow: 3px 6px 4px black;
 }
 
 .bloc_un_petit{
     height: 130px;
     width: 50%;
-    border: 1px solid #111;
     display: inline-block;
     margin-left: 75px;
-    margin-top: 45px;
+    margin-top: 35px;
+    overflow: hidden;
+}
+
+.bloc_un_petit img{
+    height: 130px;
+    width: 80%;
+    margin-left: 25px;
 }
 
 
+.sous_bloc_text_gras{
+    height: 65px;
+    width: 100%;
+    border: 1px solid #111;
+    display: inline-block;
+    overflow: hidden;
+}
 
 
-
-
+.sous_bloc_text_fin{
+    height: 65px;
+    width: 100%;
+    border: 1px solid #111;
+    display: inline-block;
+    overflow: hidden;
+}
 
 
 
