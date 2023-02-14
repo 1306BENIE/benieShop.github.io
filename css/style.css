@@ -3,9 +3,15 @@ body{
     padding: 0px;
 }
 
-header{
-    height: 45px;
+.header{
+    height: 1945px;
     border: 1px solid red;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+#bloc_head{
+    height: 45px;
+    margin-left: 8em;
 }
 #benie_shop{
       
@@ -39,5 +45,71 @@ header{
 
 .bloc_entete{
     border: 1px solid black;
-    height: 435px;
+    height: 735px;
+    background-image: url("../img/image_sac/acceuil.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+.bloc_ecriture{
+    height: 445px;
+    width: 55%;
+    transform: translate(25em, 10em);
+    text-align: center;
+}
+
+
+#lien_commande{
+    height: 55px;
+    width: 30%;
+    transform: translate(20em, 45px);
+
+}
+
+#lien_commande > a{
+    text-decoration: none;
+    padding: 20px;
+    color: #FFF;
+    background-color: #F25E0B;
+    font-size: 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
