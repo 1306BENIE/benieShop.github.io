@@ -8,6 +8,7 @@ body{
     border: 1px solid red;
     margin-left: 8em;
     margin-right: 8em;
+    background-color: #FFE;
 }
 #bloc_head{
     height: 45px;
@@ -44,7 +45,6 @@ body{
 }
 
 .bloc_entete{
-    border: 1px solid black;
     height: 735px;
     background-image: url("../img/image_sac/acceuil.jpg");
     background-repeat: no-repeat;
@@ -77,8 +77,30 @@ body{
     font-weight: bold;
 }
 
+#bloc_un{
+    height: 435px;
+    border: 1px solid red;
+    margin-top: 45px;
+}
 
+.sous_bloc_un{
+    height: 330px;
+    width: 18%;
+    border: 1px solid red;
+    display: inline-block;
+    transform: translate(2em, 6px);
+    margin-left: 12em;
+    border-bottom: 12px solid orange;
+}
 
+.bloc_un_petit{
+    height: 130px;
+    width: 50%;
+    border: 1px solid #111;
+    display: inline-block;
+    margin-left: 75px;
+    margin-top: 45px;
+}
 
 
 
