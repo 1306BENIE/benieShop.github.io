@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    height: 1945px;
+    height: 3945px;
     border: 1px solid red;
     margin-left: 8em;
     margin-right: 8em;
@@ -78,7 +78,7 @@ body{
 }
 
 #bloc_un{
-    height: 435px;
+    height: 385px;
     border: 1px solid red;
     margin-top: 45px;
 }
@@ -87,10 +87,13 @@ body{
     height: 330px;
     width: 18%;
     display: inline-block;
+    background-color: #FCF6EF;
     transform: translate(2em, 6px);
     margin-left: 12em;
     border-bottom: 12px solid orange;
-    box-shadow: 3px 6px 4px black;
+    box-shadow:0 10px 5px 0 #FFF,
+               10px 0 5px 0 #FFF;
+    /* box-shadow: 3px 6px 4px #FA9; */
 }
 
 .bloc_un_petit{
@@ -112,34 +115,105 @@ body{
 .sous_bloc_text_gras{
     height: 65px;
     width: 100%;
-    border: 1px solid #111;
     display: inline-block;
     overflow: hidden;
+}
+
+.sous_bloc_text_gras h3{
+    text-align: center;
 }
 
 
 .sous_bloc_text_fin{
     height: 65px;
     width: 100%;
-    border: 1px solid #111;
     display: inline-block;
     overflow: hidden;
 }
 
+.sous_bloc_text_fin > h3{
+    margin-left: 18px;
+    color:  #C5C3C1;
+    text-align: center;
+}
+
+.bog_section_deux{
+    height: 545px;
+    margin-left: 8em;
+}
+
+.section_deux_div{
+    height: 535px;
+    width: 20%;
+    margin-left: 35px;
+    border: 1px dashed #000;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.section_deux_img{
+    height: 245px;
+    width: 99.5%;
+    border: 1px solid black;
+}
+#section_deux_img1{
+    background-image: url("../img/image_sac/sac_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section_deux_img2{
+    background-image: url("../img/chaussure_femme/sandale_femme_01.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section_deux_img3{
+    background-image: url("../img/image_sac/sac_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section_deux_img4{
+    background-image: url("../img/image_sac/sac_01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_deux_h5{
+    height: 55px;
+    width: 99.5%;
+    border: 1px solid black;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section_deux_etoile{
+    height: 55px;
+    width: 99.5%;
+    border: 1px solid black;
+    margin-top: 15px;
+}
 
 
+.section_deux_prix{
+    height: 55px;
+    width: 99.5%;
+    border: 1px solid black;
+    margin-top: 15px;
 
+}
 
+.section_deux_prix p{
+    text-align: center;
+    font-size: 22px;
+}
 
+.section_deux_para{
+    height: 55px;
+    width: 99.5%;
+    border: 1px solid black;
+    margin-top: 15px;
 
-
-
-
-
-
-
-
-
+}
 
 
 
