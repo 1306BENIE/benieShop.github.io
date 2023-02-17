@@ -71,7 +71,7 @@ body{
     transform: translate(8em, 35px);
     width: 70%;
     height: 470px;
-    margin-top: 45px;
+    margin-top: 65px;
 } 
 
 .bloc_input > input{
@@ -86,7 +86,7 @@ body{
 
 .bloc_input p{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 95px;
     font-size: 20px;
 }
 
