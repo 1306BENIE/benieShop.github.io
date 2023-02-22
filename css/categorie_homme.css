@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    height: 2045px;
+    height: 1675px;
     border: 1px solid  #FFF;
     margin-left: 8em;
     margin-right: 8em;
@@ -14,9 +14,7 @@ body{
     height: 45px;
     margin-left: 8em;
 }
-#benie_shop{
-      
-}
+
 
 #entete{
     list-style-type: none;
@@ -93,19 +91,19 @@ body{
     width: 99.5%;
 }
 #section_deux_img1{
-    background-image: url("../img/image_sac/sac_01.jpg");
+    background-image: url("../img/image_chemise/images_un.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section_deux_img2{
-    background-image: url("../img/chaussure_femme/sandale_femme_01.jpeg");
+    background-image: url("../img/image_chemise/images_six.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #section_deux_img3{
-    background-image: url("../img/portefueille/images.jpeg");
+    background-image: url("../img/image_chemise/images_quatre.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -168,7 +166,94 @@ body{
 }
 
 /* DEUXIEME SECTION */
+.section_trois_div{
+    height: 535px;
+    width: 20%;
+    margin-left: 35px;
+    margin-bottom: 5em;
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 5px 10px 8px #888888;
+}
 
+.section_trois_img{
+    height: 245px;
+    width: 99.5%;
+}
+#section_trois_img_un{
+    background-image: url("../img/chaussure/images (10).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section_trois_img_deux{
+    background-image: url("../img/image_chemise/alex-haigh-fEt6Wd4t4j0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section_trois_img_trois{
+    background-image: url("../img/chaussure_homme/images (5).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section_trois_img_quatre{
+    background-image: url("../img/chaussure_homme/téléchargement (1).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_trois_h5{
+    height: 55px;
+    width: 99.5%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.section_trois_etoile{
+    height: 55px;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 75px;
+}
+.section_trois_etoile > p > img{
+    height: 25px;
+    width: 10%;
+    display: flex;
+    float: left;
+    margin-left: 25px;
+}
+.section_trois_prix{
+    height: 55px;
+    width: 99.5%;
+    margin-top: 15px;
+}
+
+.section_trois_prix p{
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 6px;
+    margin-left: 25px;
+}
+
+.section_trois_para{
+    height: 55px;
+    width: 99.5%;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+.section_trois_para > p > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
 
 
 
@@ -176,7 +261,7 @@ body{
 
 .bloc_footer_cat_homme{
     border: 1px solid black;
-    height: 410px;  
+    height: 380px;  
     background-color: #000;
 }
 
@@ -230,25 +315,3 @@ body{
 .footer_img_homme{
     margin-left: 125px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-homme

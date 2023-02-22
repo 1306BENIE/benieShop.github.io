@@ -89,7 +89,6 @@ body{
 
 table, td{
     border: 1px solid black;
-    `width: 100%;
     padding: 10px;
     margin-left: 95px;
     border-collapse: collapse;
@@ -98,8 +97,19 @@ table, td{
 
 .bloc_chaussure_deux{
     height: 500px;
-    border: 1px dashed red;
     margin-top: -45em;
+    margin-left: 35px;
+}
+
+.bloc_chaussure_deux p{
+    font-size: 25px;
+}
+button{
+    height: 35px;
+    width: 35px;
+    margin-right: 95px;
+    background-color: orange;
+    color: #FFF;
 }
 
 /* LE FOOTER*/
