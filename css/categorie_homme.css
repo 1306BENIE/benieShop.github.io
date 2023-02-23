@@ -14,7 +14,11 @@ body{
     height: 45px;
     margin-left: 8em;
 }
-
+.blog_section_trois{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 #entete{
     list-style-type: none;

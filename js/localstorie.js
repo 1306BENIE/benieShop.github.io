@@ -10,7 +10,7 @@ login.addEventListener('click',function(){
 	let baseDeDonneePassword = localStorage.getItem("PassWord")
 
 	if((email.value === baseDeDonneeEmail) && (password.value === baseDeDonneePassword)){
-		window.location.href = 'index.html'
+		window.location.href = 'connexion.html'
 	}
 })
 
